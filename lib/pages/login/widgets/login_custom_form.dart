@@ -3,16 +3,16 @@ import 'package:flutter_grocery_app/pages/register/register_screen.dart';
 
 import 'login_button.dart';
 
-class HomeCustomForm extends StatefulWidget {
-  const HomeCustomForm({
+class LoginCustomForm extends StatefulWidget {
+  const LoginCustomForm({
     super.key,
   });
 
   @override
-  State<HomeCustomForm> createState() => _HomeCustomFormState();
+  State<LoginCustomForm> createState() => _LoginCustomFormState();
 }
 
-class _HomeCustomFormState extends State<HomeCustomForm> {
+class _LoginCustomFormState extends State<LoginCustomForm> {
   final _formKey = GlobalKey<FormState>();
   String _email = "";
   String password = "";

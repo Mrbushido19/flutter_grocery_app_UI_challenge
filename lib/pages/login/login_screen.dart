@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-import 'widgets/Home_custom_form.dart';
+import 'widgets/login_custom_form.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
@@ -47,7 +47,7 @@ class LoginScreen extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              HomeCustomForm()
+              LoginCustomForm()
             ],
           ),
         )),

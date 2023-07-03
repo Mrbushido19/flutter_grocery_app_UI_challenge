@@ -1,6 +1,6 @@
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery_app/pages/home/login_screen.dart';
+import 'package:flutter_grocery_app/pages/login/login_screen.dart';
 // Importez votre prochaine page
 
 class SplashScreen extends StatefulWidget {
