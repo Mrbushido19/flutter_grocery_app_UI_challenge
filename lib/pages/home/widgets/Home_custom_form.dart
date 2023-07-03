@@ -57,6 +57,7 @@ class _HomeCustomFormState extends State<HomeCustomForm> {
                 if (password.isEmpty) {
                   return "Please enter your password";
                 }
+                return null;
               },
               onChanged: (value) => setState(() {
                 password = value;
